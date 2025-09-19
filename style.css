@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    background-color: rgb(0, 0, 63);
+    height: 60px;
+    color: white;
+}
+
+#logo{
+    font-size: 25px;
+    text-decoration: none;
+    color: orange;
+}
+button{
+    background-color: orange;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 200px;
+    color: white;
+}
