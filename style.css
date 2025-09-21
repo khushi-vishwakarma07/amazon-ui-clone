@@ -88,3 +88,14 @@
     border-bottom-right-radius: 5px;
 }
 
+/*----BOX 4---*/
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
