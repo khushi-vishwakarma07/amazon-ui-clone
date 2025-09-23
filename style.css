@@ -1,9 +1,11 @@
+/* Global setting */
 *{
     margin: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Box One */
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -37,6 +39,8 @@
 .nav-address{
     height: 50px;
     width: 100px;
+    padding-left: 7px;
+    padding-top: 7px;
 }
 .add-first{
     color: #cccccc;
@@ -88,14 +92,54 @@
     border-bottom-right-radius: 5px;
 }
 
+.nav-search:hover {
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: orange;
+}
+
 /*----BOX 4---*/
+.nav-signin{
+    height: 50px;
+    padding-top: 6px; 
+}
 
 span{
+    padding-left: 10px;
     font-size: 0.7rem;
 }
 
+/*----BOX 5---*/
+
 .nav-second{
-    font-size: 0.85rem;
+    font-size: 0.80rem;
     font-weight: 700;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
+.nav-returns{
+    height: 50px;
+    width: 100px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+
+
+/*----BOX 6---*/
+
+.nav-cart i {
+    font-size: 28px;
+}
+
+.nav-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}  
